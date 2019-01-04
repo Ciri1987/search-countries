@@ -1,0 +1,53 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/images/globus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+}
+
+header {
+    margin-top: 30px;
+    width: auto;
+    height: 300px;
+    position: fixed;
+    margin-left: 20px;
+    display: block;
+    z-index: 1;
+
+    h1 {
+        font-family: 'Fredericka the Great', cursive;
+        color: rgb(19, 17, 17);
+    }
+}
+
+main {
+
+    top: 250px;
+    right: 350px;
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 800px;
+
+    h2 {
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(212, 204, 204);
+    }
+
+    li {
+
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(212, 204, 204);
+    }
+}
+
+::placeholder {
+    color: white;
+}
