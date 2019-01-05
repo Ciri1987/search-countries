@@ -1,17 +1,69 @@
-* { margin: 0 auto; box-sizing: border-box; }
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-body { background-image: url("/images/globus.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: auto; width: 100%; }
+body {
+  background-image: url("/images/globus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  opacity: 0.6;
+}
 
-header { border: 2px solid red; margin-top: 30px; width: 100%; height: 250px; position: fixed; margin-left: 20px; display: block; }
+.header {
+  background-color: black;
+  margin-top: auto;
+  width: 100%;
+  height: 250px;
+  position: fixed;
+  display: block;
+  z-index: 1000;
+}
 
-header h1 { font-family: 'Fredericka the Great', cursive; color: #131111; }
+.header h1 {
+  font-family: 'Fredericka the Great', cursive;
+  color: #747171;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
-main { border: 2px solid red; top: 350px; right: 250px; display: -ms-flexbox; display: flex; position: relative; width: auto; }
+.header .btn {
+  margin-left: 20px;
+}
 
-main h2 { font-family: 'Marmelad', sans-serif; color: #d4cccc; }
+.header #country-name {
+  margin-left: 20px;
+}
 
-main li { font-family: 'Marmelad', sans-serif; color: #d4cccc; }
+main {
+  margin: 300px;
+  margin-left: 30px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding: 40px;
+}
 
-:-ms-input-placeholder { color: white; }
+main h2 {
+  font-family: 'Marmelad', sans-serif;
+  color: #d4cccc;
+  font-weight: 200;
+}
 
-::placeholder { color: white; }
+main li {
+  font-family: 'Marmelad', sans-serif;
+  color: #d4cccc;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
