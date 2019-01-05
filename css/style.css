@@ -1,69 +1,21 @@
-* {
-  margin: 0 auto;
-  box-sizing: border-box;
-}
+* { margin: 0 auto; box-sizing: border-box; }
 
-body {
-  background-image: url("/images/globus.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-  width: 100%;
-  opacity: 0.6;
-}
+body { background-image: url("/images/globus.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: auto; width: 100%; opacity: 0.6; }
 
-.header {
-  background-color: black;
-  margin-top: auto;
-  width: 100%;
-  height: 250px;
-  position: fixed;
-  display: block;
-  z-index: 1000;
-}
+.header { background-color: black; margin-top: auto; width: 100%; height: 250px; position: fixed; display: block; z-index: 1000; }
 
-.header h1 {
-  font-family: 'Fredericka the Great', cursive;
-  color: #747171;
-  font-weight: 400;
-  margin-left: 20px;
-  margin-top: 20px;
-}
+.header h1 { font-family: 'Fredericka the Great', cursive; color: #747171; font-weight: 400; margin-left: 20px; margin-top: 20px; }
 
-.header .btn {
-  margin-left: 20px;
-}
+.header .btn { margin-left: 20px; }
 
-.header #country-name {
-  margin-left: 20px;
-}
+.header #country-name { margin-left: 20px; }
 
-main {
-  margin: 300px;
-  margin-left: 30px;
-  display: block;
-  position: absolute;
-  width: 100%;
-  padding: 40px;
-}
+main { margin: 300px; margin-left: 30px; display: block; position: absolute; width: 100%; padding: 40px; }
 
-main h2 {
-  font-family: 'Marmelad', sans-serif;
-  color: #d4cccc;
-  font-weight: 200;
-}
+main h2 { font-family: 'Marmelad', sans-serif; color: #d4cccc; font-weight: 200; }
 
-main li {
-  font-family: 'Marmelad', sans-serif;
-  color: #d4cccc;
-}
+main li { font-family: 'Marmelad', sans-serif; color: #d4cccc; }
 
-:-ms-input-placeholder {
-  color: white;
-}
+:-ms-input-placeholder { color: white; }
 
-::placeholder {
-  color: white;
-}
-/*# sourceMappingURL=style.css.map */
+::placeholder { color: white; }
