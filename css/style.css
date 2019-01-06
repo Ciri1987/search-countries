@@ -15,8 +15,10 @@ body {
 .header {
   background-color: black;
   margin-top: auto;
-  width: 100%;
-  height: 200px;
+  margin-left: 10px;
+  width: 38%;
+  border-radius: 20px;
+  height: 250px;
   position: fixed;
   display: block;
   z-index: 1000;
@@ -27,11 +29,12 @@ body {
   color: #747171;
   font-weight: 400;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .header .btn {
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .header #country-name {
@@ -39,7 +42,7 @@ body {
 }
 
 main {
-  margin: 200px;
+  margin: 250px;
   margin-left: 30px;
   display: block;
   position: absolute;
